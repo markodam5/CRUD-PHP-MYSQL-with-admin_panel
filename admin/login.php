@@ -30,9 +30,9 @@
     if(!isset($_SESSION['username']) || $_SESSION['username'] == ''){
 ?>
     <div class="login">
-        <h1>Login page</h1><br>
+        <h1>Login Form</h1><br>
         <h3>User access data:</h3>
-        <h4>username: admin - password: 1</h4>
+        <h3><b>username: <span style="color:chocolate;">admin</span> ; password: <span style="color:chocolate;">1</span><b></h3>
         <form action="" method="post">
             <input type="text" name="tbUsername" placeholder="Username" size="25" required /><br>
             <input type="text" name="tbPassword" placeholder="Password" size="25" required/><br>
