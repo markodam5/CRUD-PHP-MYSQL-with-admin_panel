@@ -1,7 +1,25 @@
-# CRUD system with ADMIN
+# CRUD PHP MySQL System with Admin Panel
 
-This project represents the items with mysql database and admin control panel.
+A simple PHP app for managing a car catalog with MySQL.
 
-To Access admin panel in the URL add word admin something like this:<br>
-<b>Items-with-Admin-operations/admin/index.php</b><br>
-and fill input fields with data which are displayed in login form.
+## Features
+- View all cars
+- See car details
+- Admin login
+- Add, update, and delete items
+
+## Setup
+1. Create a MySQL database named `cars`
+2. Import `cars.sql`
+3. Update database credentials in `config.php` if needed
+
+## Admin login
+- URL: `http://localhost/CRUD-PHP-MYSQL-system-with-ADMIN/admin/`
+- Username: `admin`
+- Password: `1`
+
+## Tech stack
+- PHP
+- MySQL
+- HTML/CSS
+
