@@ -7,7 +7,7 @@ body{
 }
 
 #wrapper{
-    background: #d3e0f9;
+    background: #dfe5ef;
     min-height: 100vh;
     /* padding: 10px; */
     /* border-radius: 5px; */
@@ -38,7 +38,7 @@ body{
 }
 
 .car-item{
-    background: #bbc8eb;
+    background: #ced3e3;
     border:1px solid #8d8d8d;
     padding:4px;
     border-radius: 5px;
@@ -75,6 +75,61 @@ body{
     font-size: 20px;
 }
 
+.car-details-card{
+    background: #eef4ff;
+    box-shadow: 2px 1px 3px 0px #888888;
+    padding: 18px !important;
+}
+
+.details-hero{
+    margin-bottom: 18px;
+}
+
+.details-kicker{
+    margin: 0 0 6px;
+    color: #36598c;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.details-title{
+    margin: 0 0 8px;
+    font-size: 32px;
+}
+
+.details-description{
+    margin: 0;
+    line-height: 1.5;
+}
+
+.details-grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+    gap: 14px;
+}
+
+.details-section{
+    background: #ffffff;
+    border: 1px solid #cfdbf3;
+    border-radius: 5px;
+    padding: 14px;
+}
+
+.details-section h4{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.details-section p{
+    margin: 0 0 10px;
+}
+
+.details-section p:last-child{
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 767px){
     #header{
         flex-direction: column;
@@ -82,5 +137,8 @@ body{
     }
     #car-block{
         grid-template-columns: auto;
+    }
+    .details-grid{
+        grid-template-columns: 1fr;
     }
 }
