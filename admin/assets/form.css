@@ -1,97 +1,42 @@
-.login {
-  width: min(460px, 100%);
-  margin: 0 auto;
+.login{
+  margin:0 auto;
   padding: 20px;
-  border: 1px solid #cdd9e8;
-  border-radius: 14px;
-  background: linear-gradient(140deg, #ffffff 5%, #eef5fc 100%);
-  box-shadow: 0 12px 24px rgba(21, 47, 77, 0.1);
+  background: #456ee921;
+  border-radius: 5px;
+  text-align: center;
+}
+input{
+  width:300px;
+  font-size: large;
+  margin: 3px 0;
 }
 
-.login h1,
-.login h3,
-.login h4 {
-  margin-top: 0;
+input[type=text]{
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-.login h4 {
-  color: #5f6f81;
-  font-weight: 600;
-}
-
-.middle form {
-  max-width: 460px;
-}
-
-input[type=text],
-input[type=password],
-input[type=hidden],
-textarea,
-select {
-  width: 100%;
-  padding: 11px 12px;
-  margin: 4px 0 10px;
-  border: 1px solid #c5d3e4;
-  border-radius: 10px;
-  background: #f9fbff;
-  font-size: 1rem;
-  color: #1e2a36;
-}
-
-input[type=text]:focus,
-input[type=password]:focus,
-textarea:focus,
-select:focus {
-  border-color: #0f6fbf;
-  box-shadow: 0 0 0 3px rgba(15, 111, 191, 0.16);
-  outline: none;
+input[type=password]{
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 input[type=submit] {
-  width: 100%;
-  padding: 11px 14px;
-  margin: 10px 0 0;
+  background-color: #5f65c7;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 0;
   border: none;
-  border-radius: 10px;
-  background: linear-gradient(90deg, #0e73c4, #085992);
-  color: #ffffff;
-  font-size: 0.97rem;
-  font-weight: 700;
+  border-radius: 4px;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  filter: brightness(1.04);
-}
-
-.form-actions {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-
-input[type=submit].submit-inline {
-  width: auto;
-  min-width: 160px;
-  margin: 0;
-}
-
-input[type=submit].insert-new {
-  background: linear-gradient(90deg, #2f9760, #26764b);
-}
-
-.form-actions .back-link {
-  margin: 0;
-}
-
-@media screen and (max-width: 540px) {
-  .login {
-    padding: 14px;
-  }
-
-  .middle form {
-    max-width: 100%;
-  }
+  background-color: #7075d8;
 }
